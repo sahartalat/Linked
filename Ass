@@ -1,0 +1,39 @@
+#include <iostream>
+
+ 
+
+using namespace std;
+
+ 
+
+Class Node{
+
+Public:
+
+       Char data;
+
+       Node*next;
+
+       
+
+};
+
+ 
+
+int main(){
+
+     Node*head= Null;
+
+ 
+
+     head= new Node();
+
+ 
+
+    head->data = "S";
+
+ cout <<head ->data;
+
+ return 0;
+
+} 
